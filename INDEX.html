@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Panaderia</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    <link rel="stylesheet" href="font-awesome.css">
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="main.js"></script>
+</head>
+
+
+<div class="menuP">
+
+    <header class="header">
+        <nav class="nav">
+            <a href="#inicio" class="botonP menulink" onclick="showInicio()">Volver al inicio</a>
+            <a href="#inicio" class="botonP menulink" onclick="showSecciones()">Principal</a>
+
+
+            <ul class="menulink">
+
+                
+                <li class="botonP">
+                    <a href="#item2" class="botonP menulink" onclick="openTab('item2')">Promociones</a>
+                </li>
+                <li class="botonP">
+                    <a href="#item3" class="botonP menulink" onclick="openTab('item3')">Catalogo</a>
+                </li>
+                <li class="botonP">
+                    <a href="#item4" class="botonP menulink" onclick="openTab('item4')">Contacto</a>
+                </li>
+
+            </ul>
+
+        </nav>
+</div>
+
+</header>
+
+<body>
+    <main id="inicio">
+        <h2>Página de Inicio</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, dicta soluta! Officia, repellendus tempore fuga ullam, in sed eveniet facilis quae saepe voluptas harum laboriosam, mollitia placeat ipsa exercitationem itaque.</p>
+        <img src="imagenes/fachada.jpg">
+    </main>
+
+
+
+
+    <main id="seccion">
+
+        <div class="secciones">
+
+            <div id="item1" class="tabcontent">
+                <h1>productos</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti modi obcaecati cupiditate sed
+                    voluptatem labore quasi beatae assumenda repudiandae a, saepe error officiis impedit magnam qui
+                    laboriosam natus, aliquam voluptate!</p>
+
+
+            </div>
+            <div id="item2" class="tabcontent" style="display:none;">
+                <h1>Promociones</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti modi obcaecati cupiditate sed
+                    voluptatem labore quasi beatae assumenda repudiandae a, saepe error officiis impedit magnam qui
+                    laboriosam natus, aliquam voluptate!</p>
+
+
+            </div>
+            <div id="item3" class="tabcontent" style="display:none;">
+                <h1>Catalogo</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti modi obcaecati cupiditate sed
+                    voluptatem labore quasi beatae assumenda repudiandae a, saepe error officiis impedit magnam qui
+                    laboriosam natus, aliquam voluptate!</p>
+
+
+            </div>
+            <div id="item4" class="tabcontent" style="display:none;">
+                <h1>Contacto</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti modi obcaecati cupiditate sed
+                    voluptatem labore quasi beatae assumenda repudiandae a, saepe error officiis impedit magnam qui
+                    laboriosam natus, aliquam voluptate!</p>
+
+
+
+            </div>
+        </div>
+
+
+    </main>
+</body>
+
+</html>
